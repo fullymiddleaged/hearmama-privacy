@@ -165,6 +165,8 @@ re-grants premium access.
 
 ---
 
+<a id="data-deletion"></a>
+
 ## 5a. Data deletion requests
 
 You can delete the data HearMama stores at any time, without contacting us.
