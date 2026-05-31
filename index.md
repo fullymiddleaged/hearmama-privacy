@@ -1,15 +1,16 @@
 # Privacy Policy
 
-**Effective:** 8 May 2026
-**Last updated:** 8 May 2026
+**Effective:** 31 May 2026
+**Last updated:** 31 May 2026
 
 ## In plain English
 
-**Womb Tones runs entirely on your phone.**
+**HearMama runs entirely on your phone.**
 
-We don't have a server. We don't have an account system. We never see your name,
-your email, or your card details. The voice clips you record stay on your
-device. The audio files you choose to download stay on your device.
+We don't have a server. We don't have an account system. The app itself doesn't
+send us your name, email, or card details. We do not have access to any of
+the recordings you create — they all stay on your device, along with any
+audio files you choose to download.
 
 What is shared with someone else:
 
@@ -23,18 +24,18 @@ That's the whole story. The rest of this document is the formal version of
 the same thing.
 
 If you have any questions, email us at
-[support@easyannounce.com](mailto:support@easyannounce.com).
+[support@hearmama.com](mailto:support@hearmama.com).
 
 ---
 
 ## 1. Who we are
 
-This privacy policy applies to the **Womb Tones** mobile app on iOS and Android.
+This privacy policy applies to the **HearMama** mobile app on iOS and Android.
 
 The app is governed by the laws of **New Zealand**, including the
 [Privacy Act 2020](https://www.legislation.govt.nz/act/public/2020/0031/latest/whole.html).
 
-Contact: [support@easyannounce.com](mailto:support@easyannounce.com)
+Contact: [support@hearmama.com](mailto:support@hearmama.com)
 
 ---
 
@@ -60,12 +61,16 @@ leaves your device unless explicitly noted:
 - **Onboarding answers**: heart rate, gestational age, fibre level, BMI,
   baby position, device type. Used to compute the audio parameters for
   your personalized soundscape.
-- **Voice clips** (mum's voice, dad's voice — premium): stored in memory
-  only during a session if you upload or record one.
+- **Cached Health values** (premium, only if you opted in): the two
+  averaged numbers described in section 4a, kept for up to 7 days.
+- **Voice clips** (mum's voice, dad's voice — premium): stored on your
+  device's app cache as small WAV files so they're available next time
+  you open the app. You can remove them at any time from the voice
+  question. They are never uploaded.
 - **Premium status**: a single boolean flag indicating whether you've
   purchased the lifetime upgrade.
 - **Wellness disclaimer acknowledgement**: a single boolean flag.
-- **WAV files** that you choose to download (premium): saved to the
+- **MP3 files** that you choose to download (premium): saved to the
   Documents folder of your device by your request.
 
 You can delete all of this by tapping "Start over" in the app or by
@@ -73,15 +78,68 @@ uninstalling the app.
 
 ---
 
+## 3a. Notifications (Android only)
+
+When the soundscape is playing, HearMama shows a low-priority "playing"
+notification on Android. This notification is **required by the Android
+operating system** for any app that plays audio while the screen is
+locked — without it, Android would suspend the audio after a short
+time. The notification:
+
+- Contains no personal data — just the words "HearMama / Your baby's
+  sound is playing".
+- Disappears automatically the moment you stop playback.
+- Is not used to send marketing, promotions, or alerts of any kind.
+
+On Android 13 and later, the operating system will ask for your
+permission the first time playback begins. If you decline, the audio
+will still attempt to play, but Android may suspend it sooner.
+
+iOS does not require an equivalent notification — the same purpose is
+served by the standard "Now Playing" tile on your lock screen, which is
+populated only with the title above.
+
+---
+
 ## 4. Microphone
 
 We request microphone permission only when you tap "Record" to capture a
-voice clip. The recording is held in your phone's memory, mixed into
-your personalised soundscape, and discarded when you reset the app or
-close it. **It is never uploaded.**
+voice clip. The recording is saved to your phone's app cache as a small
+WAV file so you can use it in future sessions without re-recording, and
+mixed into your personalised soundscape. You can delete it at any time
+via the trash icon on the voice question, or wipe all of them by tapping
+"Start over". **It is never uploaded.**
 
 You can deny microphone permission and the rest of the app continues to
 work normally.
+
+---
+
+## 4a. Health data (premium feature, optional)
+
+If you have purchased the lifetime upgrade, you may choose to let HearMama
+read two values from your phone's health store — **Apple Health** on iOS
+or **Health Connect** on Android:
+
+- A 7-day average of your **resting heart rate**.
+- A 7-day average of your **heart rate variability**.
+
+We use these two numbers to make the heartbeat in your personalised
+soundscape genuinely yours — your real resting tempo, with rhythm
+looseness derived from your real HRV.
+
+**This data never leaves your device.** It is read on demand when you tap
+"Use my Health data", stored locally on your phone for up to 7 days so
+you don't have to re-grant permission every session, then refreshed on
+your next session after that. We do not write anything back to Apple
+Health or Health Connect, do not read any other category of health data,
+and do not send these values to advertisers, analytics services, or
+anyone else.
+
+The system permission prompt only appears at the moment you tap the
+button. You can deny the permission, revoke it later in your device
+settings, or never tap the button at all — in every case, HearMama
+continues to work and uses the slider value you set yourself instead.
 
 ---
 
@@ -112,7 +170,7 @@ re-grants premium access.
 
 ## 6. Advertising (free version only)
 
-The free version of Womb Tones shows occasional interstitial ads served by
+The free version of HearMama shows occasional interstitial ads served by
 **[Google AdMob](https://policies.google.com/privacy)**. AdMob may collect:
 
 - Anonymous device advertising identifiers (Android Advertising ID, IDFA)
@@ -142,7 +200,7 @@ privacy policies.
 
 ## 8. Children's privacy
 
-Womb Tones is designed to be played **for** babies by adult parents and
+HearMama is designed to be played **for** babies by adult parents and
 caregivers. The app is **not directed at, or marketed to, children
 under 13** as a user. We do not knowingly collect any data from children.
 
@@ -207,7 +265,7 @@ This document is hosted publicly so you can always read the current version.
 
 Questions, concerns, or complaints about this policy:
 
-📧 [support@easyannounce.com](mailto:support@easyannounce.com)
+📧 [support@hearmama.com](mailto:support@hearmama.com)
 
 If you are in New Zealand and you are not satisfied with our response,
 you can complain to the
