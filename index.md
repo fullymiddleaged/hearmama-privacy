@@ -5,25 +5,22 @@
 
 ## In plain English
 
-**HearMama runs entirely on your phone.**
-
-We don't have a server. We don't have an account system. The app itself doesn't
-send us your name, email, or card details. We do not have access to any of
-the recordings you create — they all stay on your device, along with any
+HearMama runs entirely on your phone. There is no server, no account, and no
+sign-up. The app does not send us your name, email address, card details, or
+any of the recordings you create — those stay on your device, along with any
 audio files you choose to download.
 
-What is shared with someone else:
+A small amount of information does leave your device, all of it handled by
+third parties rather than us:
 
 - **The free version shows ads** served anonymously by Google AdMob.
-- **If you buy the lifetime upgrade**, Apple or Google handles the payment.
-  We use a service called RevenueCat to track whether you have premium —
-  it sees an anonymous device identifier, the country your store account
-  is in, and the fact that a purchase happened. Nothing else.
+- **If you purchase the lifetime upgrade**, Apple or Google handles the
+  payment. We use RevenueCat to confirm whether your device is entitled to
+  premium features; it sees an anonymous device identifier, your platform,
+  and your store-account country. Nothing more.
 
-That's the whole story. The rest of this document is the formal version of
-the same thing.
-
-If you have any questions, email us at
+The sections below set out the same information in the detailed form expected
+by privacy regulations. For any questions, email
 [support@hearmama.com](mailto:support@hearmama.com).
 
 ---
