@@ -165,6 +165,34 @@ re-grants premium access.
 
 ---
 
+## 5a. Data deletion requests
+
+You can delete the data HearMama stores at any time, without contacting us.
+
+**On your device** — All onboarding answers, voice clips, premium status,
+cached Health values, and any audio files you've downloaded are stored
+locally. To remove them:
+
+- Tap **"Start over"** in the app to wipe settings, clips, and cached values.
+- **Uninstall** the app — this removes everything HearMama has stored.
+
+**Third-party services** — The small amount of data sent off your device
+by Google AdMob and RevenueCat (see sections 5 and 6) can be removed as
+follows:
+
+- **Google AdMob (advertising identifier)** — open your device settings →
+  Privacy → Advertising → **Reset advertising ID**. This severs the link
+  between your device and any prior ad activity AdMob has recorded.
+- **RevenueCat (anonymous purchase record)** — email us at
+  [support@hearmama.com](mailto:support@hearmama.com) with the subject
+  line **"Data deletion request"** and we will submit a deletion request
+  to RevenueCat on your behalf within 30 days.
+
+For any other questions about your data, email
+[support@hearmama.com](mailto:support@hearmama.com).
+
+---
+
 ## 6. Advertising (free version only)
 
 The free version of HearMama shows occasional interstitial ads served by
